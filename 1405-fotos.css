@@ -7,30 +7,66 @@
     text-align: center;
     height: max-content;
     color: sienna;
+    border:1px solid black;
 }
 
 figure{
     width: 30%;
     height: auto;
-    max-height: 300px;
+    object-fit: cover;
     display: inline-block;
+    position:relative;
+
 }
 figcaption{
     padding-top: 1em;
+    width:70%;
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    -ms-transform: translate(-50%);
+     transform: translate(-50%);   
+    
+}
+figcaption p{
+    background-color: rgba(20, 210, 223, 0.425);
     font-weight: bold;
+    font-size: larger;
+    padding-top: 3px;
+    border-radius: 20%;
+}
+figure a{
+    text-decoration: none;
+    color: black;
+}
+figure a:hover{
+    color: rgb(194, 37, 16);
 }
 img{
     
-    height: 100%;
+    height: 50%;
     width: 100%;
     object-fit: cover;
     border-radius: 20%;
     padding-top: 1em;
+    opacity: 60%;
 }
 img:hover{
     transform: scale(1.1,1.1);
 }
-
+.imagen777:hover{
+    opacity: 100%;
+}
+.imagen350:hover{
+    opacity: 100%;
+}
+.imagen787:hover{
+    opacity: 100%;
+}
+.textoInicial{
+    text-align: center;
+    padding-top: 2%;
+}
 h1{
     margin-top: 0.5em;
     font-size: 40px;
@@ -42,6 +78,7 @@ header{
     margin-bottom: 2em;
 }
 footer{
+    float:left;
     text-align: center;
     margin-top: 2em;
     padding: 1.5em;

@@ -1,5 +1,5 @@
 :root{
-    --colorenlaces:rgb(223, 112, 8);
+    --colorenlaces:rgb(173, 98, 28);
 }
 *{
    margin:0px;
@@ -7,12 +7,43 @@
    box-sizing: border-box;
 }
 body{
-    padding-left: 15px;
+    background-color: rgba(180, 180, 180, 0.534);
+}
+header{
+    text-align: center;
+    padding: 10px;
+}
+details{
+    
+    display: inline-block;
+    padding: 7px;
+    margin-left: 35px;
+    
+}
+details:hover{
+    border: 1px solid black;
+    border-radius: 5px;
+    color:rgb(255, 230, 0);
+    background-color: black;
+}
+summary:hover{
+    text-transform: uppercase;
+}
+ul{
+    list-style-position: inside;
+}
+li{
+    border: 1px dashed rgb(255, 230, 0);
+    margin-top: 10px;
+    padding: 5px;
+    text-align: left;;
+    border-radius: 10px;
 }
 a{
     text-decoration: none;
-    color: black;
+    color: rgb(255, 230, 0);
 }
 a:hover{
-    color: var(--colorenlaces);
+    background-color: rgb(255, 230, 0);
+    color: black;
 }
