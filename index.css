@@ -26,9 +26,6 @@ details:hover{
     color:rgb(255, 230, 0);
     background-color: black;
 }
-summary:hover{
-    text-transform: uppercase;
-}
 ul{
     list-style-position: inside;
 }
@@ -44,6 +41,5 @@ a{
     color: rgb(255, 230, 0);
 }
 a:hover{
-    background-color: rgb(255, 230, 0);
-    color: black;
+    font-size: larger;
 }
