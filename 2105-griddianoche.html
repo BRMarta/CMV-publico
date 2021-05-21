@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!--
+HTML
+web o pagina:
+autor: Carlos Boni
+fecha: Marzo 2021
+-->
+
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		
+	<title>Fotos en Grid</title>
+	
+	<link href="2105-griddianoche.css" rel="stylesheet"/>
+
+	<style>
+		
+		:root {
+			--fuenteDia : #000000;
+			--fuenteNoche: #0ceb3c;
+		}
+		
+		* {
+			font-family: 'Nunito', sans-serif;
+		}
+		
+		body {
+		}
+		
+		.dia {
+		  color: var(--fuenteDia);
+		}
+		
+		.noche {
+		  background-color: var(--fuenteNoche);
+		}
+
+
+		
+	</style>
+	
+
+</head>
+
+
+<body class="dia">
+
+	<div class="marco">
+		<div class="encabezado"><p>Aviación Comercial</p></div>
+		<div class="migas"><button>Alternar colores</button></div>
+		<div class="lado"></div>
+		<div class="contenido">
+
+            <header>
+                <h1>Largo Recorrido</h1>
+                <br/>
+            </header>
+            
+            <!-- bloque de contenido de la pagina -->
+            <main>
+                
+		<figure>
+			<h3>777</h3>
+			<img alt="Boeing777" class="imagen777" src="mmedia/Boeing777.jpg">
+			<figcaption><p><a href="https://www.youtube.com/watch?v=Ti8hZzC9vso" target="_blank">Boeing 777 de Cathay Pacific</a></p></figcaption>
+		</figure>
+	
+	<figure>
+		<h3>A350</h3>
+		<img alt="A350" class="imagen350" src="mmedia/A350.jpg">
+		<figcaption><p><a href="https://www.youtube.com/watch?v=BEoKlbStI9M" target="_blank">Airbus A350 en pruebas</a></p></figcaption>
+	</figure>
+
+	<figure>
+		<h3>787</h3>
+		
+		<img alt="Boeing787" class="imagen787" src="mmedia/Boeing787.jpg">
+		<figcaption><p><a href="https://www.youtube.com/watch?v=p_OalvecPOc" target="_blank">Boeing 787 de Continental Airlines</a></p></figcaption>
+	</figure>
+			
+			
+			
+			</main>
+        
+        
+            <!-- pie de pagina -->
+            <footer>
+                <br/><br/><br/>
+                <div></div>
+            </footer>
+
+
+
+        </div>
+		<div class="ladoD"></div>
+		<div class="pie"><p>&copy; 2020 - Marta Barbeito</p></div>
+	</div>
+	<script>
+		// seccion de codigo javascript 
+		
+			$("button").click(function(){
+				$("div").toggleClass("noche");
+			  });
+	
+		</script>
+
+</body>
+</html>
