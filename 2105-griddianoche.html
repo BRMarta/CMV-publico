@@ -15,19 +15,13 @@ fecha: Marzo 2021
 	<title>Fotos en Grid</title>
 	
 	<link href="2105-griddianoche.css" rel="stylesheet"/>
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	
 	<style>
 		
 		:root {
 			--fuenteDia : #000000;
-			--fuenteNoche: #0ceb3c;
-		}
-		
-		* {
-			font-family: 'Nunito', sans-serif;
-		}
-		
-		body {
+			--fuenteNoche: #ffffff;
 		}
 		
 		.dia {
@@ -35,7 +29,8 @@ fecha: Marzo 2021
 		}
 		
 		.noche {
-		  background-color: var(--fuenteNoche);
+		  color: var(--fuenteNoche);
+		  background-color: #0202028c;
 		}
 
 
@@ -102,7 +97,7 @@ fecha: Marzo 2021
 		// seccion de codigo javascript 
 		
 			$("button").click(function(){
-				$("div").toggleClass("noche");
+				$("h1, h2, h3, .marco").toggleClass("noche");
 			  });
 	
 		</script>
