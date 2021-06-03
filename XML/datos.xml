@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<orla>
+    <avion id="1">
+        <nombre>A320</nombre>
+        <foto>https://images.unsplash.com/photo-1560007607-7c6b4e12582f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80</foto>
+        <pie>Airbus A320 Aer Lingus</pie>
+        <detalle>Flying since 1987 and a maximum seating capacity of 180 passengers, it's a short to medium range aircraft, it can cover a distance up to 6.200 km with Sharklets (type of winglet)</detalle>
+    </avion>
+    <avion id="2">
+        <nombre>A320</nombre>
+        <foto>https://cdn.pixabay.com/photo/2016/09/27/19/57/airbus-a320-1699203_960_720.jpg</foto>
+        <pie>Airbus A320 Vueling</pie>
+        <detalle>Its different variants include A318, A319 and A321. Among the primary users are American Airlines, China Easter Airlines, EasyJet and China Southern Airlines</detalle>
+    </avion>
+    <avion id="3">
+        <nombre>Boeing 737</nombre>
+        <foto> https://cdn.pixabay.com/photo/2018/07/08/18/08/aircraft-3524387_960_720.jpg</foto>
+        <pie>Boeing 737 Ryanair</pie>
+        <detalle>Flew for the first time in 1967, it's Boeing's primary aircraft for short to medium range flights with a maximum capacity of 200 pax, it can flight up to 7.000 km. depending on the model.</detalle>
+    </avion>
+    <avion id="4">
+        <nombre>Boeing 737</nombre>
+        <foto>https://cdn.pixabay.com/photo/2014/11/26/13/49/flight-546204_960_720.jpg</foto>
+        <pie>Boeing 737 Norwegian</pie>
+        <detalle>The airlines that use this aircraft the most are Southwest Airlines, Ryanair, United Airlines and American Airlines.</detalle>
+    </avion>
+    <avion id="5">
+        <nombre>A350</nombre>
+        <foto>https://cdn.pixabay.com/photo/2020/07/29/03/36/iberia-5446815_960_720.jpg</foto>
+        <pie>Airbus A350 Iberia</pie>
+        <detalle>Airbus' response to the Boeing 787, it's the latest aircraft designed by the company: its first flight was in 2013. Covering a distance up to 15.000 km. It has a maximum seating capacity of 400 passengers. </detalle>
+    </avion>
+    <avion id="6">
+        <nombre>A350</nombre>
+        <foto>https://cdn.pixabay.com/photo/2015/06/04/22/48/airbus-797945_960_720.jpg</foto>
+        <pie>Airbus A350 Airbus</pie>
+        <detalle>The main airlines flying this type of airplane are Singapore Airlines, Qatar Airways, Cathay Pacific and Lufthansa.</detalle>
+    </avion>
+    <avion id="7">
+        <nombre>Boeing 787</nombre>
+        <foto>https://cdn.pixabay.com/photo/2017/08/27/14/17/aircraft-2686118_960_720.jpg</foto>
+        <pie>Boeing 787 Japan Airlines</pie>
+        <detalle>Named the "Dreamliner", it began flying at the end of 2009 covering long distances (around 14.000 km) and taking up to 336 passengers. </detalle>
+    </avion>
+    <avion id="8">
+        <nombre>Boeing 787</nombre>
+        <foto>https://cdn.pixabay.com/photo/2019/07/26/02/00/airport-4363760_960_720.jpg</foto>
+        <pie>Boeing 787 United Airlines</pie>
+        <detalle>All Nippon Airways, Japan Airways, American Airlines and United Airlines are the top 4 customers of the aircraft.</detalle>
+    </avion>
+    <avion id="9">
+        <nombre>A340</nombre>
+        <foto>https://cdn.pixabay.com/photo/2016/09/20/20/48/airbus-a340-1683391_960_720.jpg</foto>
+        <pie>Airbus A340 Swiss</pie>
+        <detalle>Born in 1991, it was Airbus' main 4-engine aircraft until the King was developed. It can accommodate up to 475 pax and a long distance range of 14.450km. The production of this type of aicraft ended in 2011.</detalle>
+    </avion>
+    <avion id="10">
+        <nombre>A3430</nombre>
+        <foto>https://cdn.pixabay.com/photo/2015/08/11/12/33/china-airlines-884386_960_720.jpg</foto>
+        <pie>Airbus A340 China Airlines</pie>
+        <detalle>The largest A340 operator is Lufthansa, followed by Iberia, Virgin Atlantic and South African Airways. Around 30 A340 aircrafts fly every day.</detalle>
+    </avion>	
+    <avion id="11">
+        <nombre>A380</nombre>
+        <foto>https://cdn.pixabay.com/photo/2019/08/22/14/21/a380-4423636_960_720.jpg</foto>
+        <pie>Airbus A380 Lufthansa</pie>
+        <detalle>Nicknamed the "King of the Skies", it's Airbus' first double-deck aircraft with a typical capacity of 525 pax. The production only lasted 18 years (2003-2021)and it has a range of up to 15.700 km.</detalle>
+    </avion>
+    <avion id="12">
+        <nombre>A380</nombre>
+        <foto>https://cdn.pixabay.com/photo/2015/04/02/15/35/aircraft-703908_960_720.jpg</foto>
+        <pie>Airbus A380 Airbus</pie>
+        <detalle>Emirates, Singapore Airlines, British Airways and Qantas are the primary users of this aircraft.</detalle>
+    </avion>
+    <avion id="13">
+        <nombre>Boeing 747</nombre>
+        <foto>https://cdn.pixabay.com/photo/2020/01/28/01/43/qantas-4798732_960_720.jpg</foto>
+        <pie>Boeing 747 Qantas</pie>
+        <detalle>Introduced in 1969 as the first partial double-deck jet airliner, the top deck is smaller than the main deck. Flies a distance of 15.000 km and it can take up to 366 people.</detalle>
+    </avion>
+    <avion id="14">
+        <nombre>Boeing 747</nombre>
+        <foto>https://cdn.pixabay.com/photo/2017/03/30/13/56/sky-2188529_960_720.jpg</foto>
+        <pie>Boeing 747 Air France</pie>
+        <detalle>The so-called Queen of the Skies is also used for cargo and will end its production in 2022. Atlas Air, Lufthansa, Cargolux and UPS Airlines are the main users.</detalle>
+    </avion>
+    <avion id="15">
+        <nombre>A330</nombre>
+        <foto>https://cdn.pixabay.com/photo/2016/09/20/20/48/airbus-a330-1683401_960_720.jpg</foto>
+        <pie>Airbus A330 Swiss</pie>
+        <detalle>Another wide-range aircraft from the European company, it began flying in 1992. Its range goes up to 13.450 km. and a maximum of 277 passengers. </detalle>
+    </avion>
+    <avion id="16">
+        <nombre>A330</nombre>
+        <foto>https://cdn.pixabay.com/photo/2015/08/02/23/47/airbus-a330-872464_960_720.jpg</foto>
+        <pie>Airbus A330 Northwest Airlines</pie>
+        <detalle>Turkish Airlines is the largest operator, followed by Air China, China Eastern Airlines and Delta Airlines.</detalle>
+    </avion>
+    <avion id="17">
+        <nombre>Boeing 777</nombre>
+        <foto>https://cdn.pixabay.com/photo/2015/08/05/10/31/boeing-777-876098_960_720.jpg</foto>
+        <pie>Boeing 777 All Nippon Airways</pie>
+        <detalle>It's the second biggest from Boeing (after the Queen), and the biggest 2-engine aircraft that began flying in 1994. It flies a distance up to 15.840 km carrying a total of 368 passengers. </detalle>
+    </avion>
+    <avion id="18">
+        <nombre>Boeing 777</nombre>
+        <foto>https://cdn.pixabay.com/photo/2016/09/20/20/48/boeing-777-1683402_960_720.jpg</foto>
+        <pie>Boeing 777 Cathay Pacific</pie>
+        <detalle>Primary users: Emirates, United Airlines, Air France and Cathay Pacific.</detalle>
+    </avion>
+    <avion id="19">
+        <nombre>Boeing Dreamlifter</nombre>
+        <foto>https://cdn.pixabay.com/photo/2018/07/27/14/34/dreamlifter-3566162_960_720.jpg</foto>
+        <pie>Boeing Dreamlifter</pie>
+        <detalle>Designed as a modification from the Boeing 747, its first flight was in 2006 and it's mainly used for transporting Boeing 787 aircraft components. Only 3 exist.</detalle>
+    </avion>
+    <avion id="20">
+        <nombre>Airbus Beluga</nombre>
+        <foto>https://cdn.pixabay.com/photo/2017/08/21/12/06/beluga-2665147_960_720.jpg</foto>
+        <pie>Airbus Beluga</pie>
+        <detalle>Airbus' plane used to carry aircraft parts, its name honors the animal it resembles. There're only 5 airplanes of this type that began flying in 1994.</detalle>
+    </avion>
+</orla>
