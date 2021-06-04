@@ -13,12 +13,12 @@ function leerXML0() {
     xhr.send();
 }
 
-function miFuncion(xml, fuente,cantidad) {
-    console.log(cantidad);
-    let listaAviones;
+function miFuncion(xml, fuente) {
+    
     let i;
     let nombre;
     let foto;
+    let pie;
     let aviones = [];
     let bloque="";
     let xmlDoc = xml.responseXML;
@@ -39,7 +39,7 @@ function miFuncion(xml, fuente,cantidad) {
         
             let titulo = aviones[i][0];
             let imagen = aviones[i][1];
-            let pie = aviones[i][2];
+            pie = aviones[i][2];
 
             
             //bloque += "<figure><img src='"+imagen+"'/></figure>";
