@@ -18,14 +18,13 @@ details{
     display: inline-block;
     padding: 7px;
     margin-left: 35px;
-    
-}
-details:hover{
     border: 1px solid black;
     border-radius: 5px;
     color:rgb(255, 230, 0);
     background-color: black;
+    
 }
+
 ul{
     list-style-position: inside;
 }

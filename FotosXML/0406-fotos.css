@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+/*
+.cuadroImagenes {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(226, 208, 208);
+    height: 600px;
+    color: white;
+    font-size: 2rem;
+}
+.unaFoto{
+    width: 30%;
+    align-self: center;
+    text-align: center;
+    background-color: aqua;
+    border:1px solid black;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+*/
+.cuadroImagenes{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+figure{
+    width: 30%;
+    text-align: center;
+}
+figcaption{   
+    width:100%;
+    margin-bottom: 0px;;
+  
+}
+figcaption p{
+    background-color: rgba(20, 210, 223, 0.425);
+    font-weight: bold;
+    font-size: larger;    
+    border-radius: 20%;
+}
+img{
+    height:75%;
+    max-width: 75%;    
+    border-radius: 50%;
+    margin-top:1em;
+    padding-top: 0.7em;
+    padding-bottom: 1.3em;
+}
+img:hover{
+    transform: scale(1.1,1.1);
+}
+
+.textoInicial{
+    text-align: center;
+    padding-top: 2%;
+}
+h1{
+    margin-top: 0.5em;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+header{
+    background-color: rgba(59, 160, 207, 0.671);
+    margin-bottom: 2em;
+}
+footer{
+    float:left;
+    text-align: center;
+    margin-top: 2em;
+    padding: 1.5em;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(59, 160, 207, 0.671);
+    color: rgb(255, 255, 255);
+}
+@media screen and (max-width:1800px){
+    img{
+        height: 60%;
+    }
+}
+@media screen and (max-width:900px){
+    figure{
+        width:50%;
+        height: 300px;
+    }
+}
+@media screen and (max-width:600px){
+    figure{
+        width:50%;
+        height: 300px;
+        
+        display: block;
+    }
+}
+@media screen and (max-width:400px){
+    figure{
+        font-size: smaller;
+    }
+}
