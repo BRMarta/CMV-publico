@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: rgba(0, 87, 128, 0.1);
+    /* Azul al 10% */
+}
+
+h1 {
+    padding-top: 1%;
+    text-align: center;
+}
+
+h3 {
+    margin-bottom: 1%;
+}
+
+.caja {
+    float: left;
+    width: 50%;
+    height: 250px;
+    text-align: center;
+}
+
+svg {
+    padding-top: 25px;
+}
+
+footer {
+    clear: left;
+}

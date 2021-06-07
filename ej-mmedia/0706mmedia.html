@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<title>Mmedia</title>
+
+	<!-- una fuente de Google -->
+	<link rel="preconnect" href="https://fonts.gstatic.com" />
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet" />
+
+	<link href="0706mmedia.css" rel="stylesheet" />
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	
+</head>
+
+<body>
+
+	<header>
+		<h1>MMedia</h1>
+
+		<br />
+	</header>
+
+	<main>
+		<div class="caja">
+			<h3>Esto es un ejemplo de vídeo en una página</h3>
+			<video style="width: 30%" controls>
+				<source src="Airbus.mp4" type="video/mp4">
+				<track kind="subtitles" src="subtitulos_es.vtt" srclang="es" label="Español">
+			</video>
+		</div>
+		<div class="caja">
+			<h3>SVG logo Airbus</h3>
+			<svg height="150" width="250">
+				<defs>
+					<linearGradient id="grad1" x1="10%" y1="50%" x2="70%" y2="0%" x3="80%" y3="0%">
+						<stop offset="0%" style="stop-color:rgb(194,213,238);stop-opacity:1" />
+						<stop offset="50%" style="stop-color:rgb(63,86,157);stop-opacity:1" />
+						<stop offset="100%" style="stop-color:rgb(30,49,116);stop-opacity:1" />
+					</linearGradient>
+				</defs>
+				<ellipse cx="130" cy="70" rx="100" ry="70" fill="url(#grad1)" />
+				<text fill="#ffffff" font-size="45" font-family="Verdana" x="45" y="70">Airbus</text>
+
+			</svg>
+		</div>
+		<div class="caja">
+			<h3>Esto es un audio del aterrizaje de un avión: </h3>
+			<audio controls>
+				<source src="aircraft003.mp3" type="audio/mp3">
+			</audio>
+		</div>
+		<div class="caja">
+			<h3>Canvas</h3>
+			<canvas id="canvas" width="250" height="200">
+			</canvas>
+		</div>
+
+	</main>
+
+	<footer>
+		<br /><br /><br />
+		<div>&copy; 2021 <a href="https://www.linkedin.com/in/martabarbeitodelarocha/" target="_blank">Marta
+				Barbeito</a></div>
+	</footer>
+	<script src="0706mmedia.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+WEBVTT
+
+STYLE
+::cue {
+  background-image: linear-gradient(to bottom, dimgray, lightgray);
+  color: papayawhip;
+}
+/* Style blocks cannot use blank lines nor "dash dash greater than" */
+
+NOTE comment blocks can be used between style blocks.
+
+STYLE
+::cue(b) {
+  color: peachpuff;
+}
+
+1
+00:00:00.000 --> 00:00:03.000
+Esta es la primera línea
+
+2
+00:00:03.000 --> 00:00:06.000
+Otra línea más
+
+3
+00:00:06.000 --> 00:00:09.000
+Airbus
+
+4
+00:00:09.000 --> 00:00:12.000
+50 Aniversario
+
+5
+00:00:12.000 --> 00:00:15.000
+Esta es la última línea
