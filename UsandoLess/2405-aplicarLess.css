@@ -1,0 +1,184 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.marco {
+  display: grid;
+  /*border-style: solid;*/
+  /*border-color: rgba(122, 203, 240, 0.521);*/
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 150px 40px auto 40px;
+  grid-gap: 5px;
+  width: 100vw;
+  height: 100vh;
+}
+.encabezado {
+  position: relative;
+  border-style: solid;
+  border-color: rgba(122, 203, 240, 0.164);
+  background-color: rgba(59, 160, 207, 0.521);
+  grid-column: 1 / span 12;
+  grid-row: 1 / span 1;
+}
+.encabezado h1 {
+  display: inline-block;
+  position: absolute;
+  font-size: 50px;
+  font-weight: bolder;
+  bottom: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, 50%);
+  transform: translate(-50%, 50%);
+}
+.migas {
+  border-style: solid;
+  border-color: rgba(122, 203, 240, 0.164);
+  grid-column: 1 / span 12;
+  grid-row: 2 / span 1;
+  background-color: rgba(122, 203, 240, 0.164);
+  position: relative;
+}
+button {
+  background-color: white;
+  color: black;
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, 50%);
+  transform: translate(-50%, 50%);
+  padding: 3px;
+  border-radius: 5px;
+}
+.estiloLados {
+  border-style: solid;
+  border-radius: 30%;
+  border-color: rgba(122, 203, 240, 0.164);
+  background-color: rgba(122, 203, 240, 0.164);
+  grid-row: 3 / span 1;
+}
+.lado {
+  border-style: solid;
+  border-radius: 30%;
+  border-color: rgba(122, 203, 240, 0.164);
+  background-color: rgba(122, 203, 240, 0.164);
+  grid-row: 3 / span 1;
+  grid-column: 1 / span 1;
+  margin-left: 2px;
+}
+.ladoD {
+  border-style: solid;
+  border-radius: 30%;
+  border-color: rgba(122, 203, 240, 0.164);
+  background-color: rgba(122, 203, 240, 0.164);
+  grid-row: 3 / span 1;
+  grid-column: 12 / span 1;
+  margin-right: 2px;
+}
+body div div.contenido {
+  border-style: solid;
+  border-color: #ffffff;
+  grid-column: 2 / span 10;
+  grid-row: 3 / span 1;
+  overflow: scroll;
+  text-align: center;
+  color: sienna;
+}
+body div div.contenido main figure {
+  width: 30%;
+  height: auto;
+  object-fit: cover;
+  display: inline-block;
+  position: relative;
+}
+body div div.contenido main figure figcaption {
+  padding-top: 1em;
+  width: 70%;
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  -ms-transform: translate(-50%);
+  transform: translate(-50%);
+}
+body div div.contenido main figure figcaption p {
+  background-color: rgba(20, 210, 223, 0.425);
+  font-weight: bold;
+  font-size: larger;
+  padding-top: 3px;
+  border-radius: 20%;
+}
+body div div.contenido main figure figcaption a {
+  text-decoration: none;
+  color: black;
+}
+body div div.contenido main figure figcaption a:hover {
+  color: #c22510;
+}
+body div div.contenido main figure img {
+  height: 50%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20%;
+  padding-top: 1em;
+  opacity: 60%;
+}
+body div div.contenido main figure img:hover {
+  transform: scale(1.1, 1.1);
+}
+.imagen777:hover {
+  opacity: 100%;
+}
+.imagen350:hover {
+  opacity: 100%;
+}
+.imagen787:hover {
+  opacity: 100%;
+}
+footer {
+  border-style: solid;
+  border-color: rgba(122, 203, 240, 0.164);
+  background-color: rgba(59, 160, 207, 0.521);
+  grid-column: 1 / span 12;
+  grid-row: 4 / span 1;
+}
+footer p {
+  text-align: center;
+  color: black;
+}
+.imgD {
+  float: right;
+  margin: 10px;
+  /* width:400px;
+      height:200px; */
+  width: 35%;
+  height: auto;
+  object-fit: cover;
+}
+.imgI {
+  float: left;
+  margin: 10px;
+  clear: right;
+  /* width:400px;
+      height:200px; */
+  width: 35%;
+  height: auto;
+  object-fit: cover;
+}
+@media screen and (max-width: 1300px) {
+  #cuadroImagen {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 900px) {
+  #cuadroImagen {
+    width: 50%;
+  }
+  .lado {
+    visibility: hidden;
+  }
+}
+@media screen and (max-width: 600px) {
+  #cuadroImagen p {
+    font-size: 12px;
+  }
+}

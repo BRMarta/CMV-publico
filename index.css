@@ -6,17 +6,23 @@
    padding: 0px;
    box-sizing: border-box;
 }
-body{
-    background-color: rgba(180, 180, 180, 0.534);
-}
+
 header{
+    background-color: rgba(59, 160, 207, 0.521);
+    border:1em solid white;
     text-align: center;
     padding: 10px;
+}
+main{
+    text-align: center;
+    padding-top: 3em;
+    height: 600px;
+    background-color: rgba(180, 180, 180, 0.356);
 }
 details{
     
     display: inline-block;
-    padding: 7px;
+    padding: 10px;
     margin-left: 35px;
     border: 1px solid black;
     border-radius: 5px;
@@ -35,10 +41,20 @@ li{
     text-align: left;;
     border-radius: 10px;
 }
-a{
+li > a{
     text-decoration: none;
     color: rgb(255, 230, 0);
 }
 a:hover{
     font-size: larger;
+}
+footer{
+    float:left;
+    text-align: center;
+    margin-top: 2em;
+    padding: 1.5em;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(59, 160, 207, 0.671);
+    color: rgb(255, 255, 255);
 }
