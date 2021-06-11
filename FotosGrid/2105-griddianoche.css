@@ -187,7 +187,6 @@
         
         width: 40%;
     }
-
 }
   @media screen and (max-width:900px){
     
@@ -198,11 +197,17 @@
     .lado{
       visibility: hidden;
     }
+    .encabezado p{
+      font-size: 40px;
+    }
 
 }
 @media screen and (max-width:600px){
   .contenido p{
     font-size: 10px;
+  }
+  .encabezado p{
+    font-size: 30px;
   }
 
 }

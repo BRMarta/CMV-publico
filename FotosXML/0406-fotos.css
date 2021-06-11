@@ -60,10 +60,6 @@ img:hover{
     transform: scale(1.1,1.1);
 }
 
-.textoInicial{
-    text-align: center;
-    padding-top: 2%;
-}
 h1{
     margin-top: 0.5em;
     font-size: 40px;

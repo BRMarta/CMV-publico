@@ -176,6 +176,9 @@ footer p {
   .lado {
     visibility: hidden;
   }
+  .encabezado h1 {
+    font-size: 25px;
+  }
 }
 @media screen and (max-width: 600px) {
   #cuadroImagen p {
