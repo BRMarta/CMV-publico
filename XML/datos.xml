@@ -8,8 +8,8 @@
     </avion>
     <avion id="2">
         <nombre>A320</nombre>
-        <foto>https://cdn.pixabay.com/photo/2016/09/27/19/57/airbus-a320-1699203_960_720.jpg</foto>
-        <pie>Airbus A320 Vueling</pie>
+        <foto>https://cdn.pixabay.com/photo/2013/06/08/01/35/lan-chile-123030_960_720.jpg</foto>
+        <pie>Airbus A320 LATAM Chile</pie>
         <detalle>Its different variants include A318, A319 and A321. Among the primary users are American Airlines, China Easter Airlines, EasyJet and China Southern Airlines</detalle>
     </avion>
     <avion id="3">
