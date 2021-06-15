@@ -55,7 +55,7 @@
         <detalle>Born in 1991, it was Airbus' main 4-engine aircraft until the King was developed. It can accommodate up to 475 pax and a long distance range of 14.450km. The production of this type of aicraft ended in 2011.</detalle>
     </avion>
     <avion id="10">
-        <nombre>A3430</nombre>
+        <nombre>A340</nombre>
         <foto>https://cdn.pixabay.com/photo/2015/08/11/12/33/china-airlines-884386_960_720.jpg</foto>
         <pie>Airbus A340 China Airlines</pie>
         <detalle>The largest A340 operator is Lufthansa, followed by Iberia, Virgin Atlantic and South African Airways. Around 30 A340 aircrafts fly every day.</detalle>
