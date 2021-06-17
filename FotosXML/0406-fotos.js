@@ -1,6 +1,3 @@
-
-let usuarios = [];
-
 function leerXML0() {
     // lee desde GitHub.
     var xhr = new XMLHttpRequest();

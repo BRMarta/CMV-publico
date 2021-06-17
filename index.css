@@ -14,13 +14,13 @@ header{
     padding: 10px;
 }
 main{
-    text-align: center;
+    position: relative;
     padding-top: 3em;
     height: 600px;
     background-color: rgba(180, 180, 180, 0.356);
 }
 details{
-    
+    position: absolute;
     display: inline-block;
     padding: 10px;
     margin-left: 35px;
@@ -28,6 +28,9 @@ details{
     border-radius: 5px;
     color:rgb(255, 230, 0);
     background-color: black;
+    left: 47%;
+    -ms-transform: translate(-50%);
+    transform: translate(-50%);
     
 }
 
